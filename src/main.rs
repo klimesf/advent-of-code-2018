@@ -4,5 +4,5 @@ mod day01;
 mod toolbox;
 
 fn main() {
-    println!("Hello, world!");
+    day01();
 }
