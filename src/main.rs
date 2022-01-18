@@ -1,10 +1,10 @@
-use crate::day04::day04;
+use crate::day05::day05;
 
 extern crate regex;
 
-mod day04;
+mod day05;
 mod toolbox;
 
 fn main() {
-    day04();
+    day05();
 }
