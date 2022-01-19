@@ -1,10 +1,15 @@
-use crate::day06::day06;
+#![allow(
+dead_code
+)]
 
+extern crate itertools;
 extern crate regex;
 
-mod day06;
+use crate::day07::day07;
+
+mod day07;
 mod toolbox;
 
 fn main() {
-    day06();
+    day07();
 }
