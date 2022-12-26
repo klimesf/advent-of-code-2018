@@ -5,11 +5,11 @@ dead_code
 extern crate itertools;
 extern crate regex;
 
-use crate::day14::day14;
+use crate::day24::day24;
 
-mod day14;
+mod day24;
 mod toolbox;
 
 fn main() {
-    day14();
+    day24();
 }
